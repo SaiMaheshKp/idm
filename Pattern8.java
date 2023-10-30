@@ -9,7 +9,7 @@ public class Pattern8
 			int alphabet = 65;
 			for (int j = 5; j >= i; j--)
 			{
-				System.out.print((char) (alphabet + j) + " *");
+				System.out.print((char) (alphabet + j) + " ");
 			}
 			System.out.println();
 		}
